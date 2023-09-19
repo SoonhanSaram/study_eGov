@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.M2_REPO=C\:/Users/TNGLOBAL/Documents/dev/Coop/\uC804\uC790\uC815\uBD80\uD504\uB808\uC784\uC6CC\uD06C/maven_repository_4_1
 org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
 org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 org.eclipse.jdt.core.compiler.codegen.targetPlatform=17

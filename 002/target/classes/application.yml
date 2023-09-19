@@ -1,0 +1,16 @@
+# server 
+
+#server:
+#  port: 8080
+  
+# import config
+#  spring :
+#    config :
+#      import :
+#       - "classpath:/cmmn/cache/cache.yml"
+#       - "classpath:/cmmn/idgnr/idgnr.yml"
+#       - "classpath:/cmmn/persistence/dbconfig.yml"
+
+# log4j2.yml import
+#  loggin:
+#    config: classpath:cmmn/logging/log4j2.yml       
