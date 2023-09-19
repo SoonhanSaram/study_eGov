@@ -131,3 +131,6 @@ dist
 
 Servers/
 /.metadata/
+
+eGov_*/
+egovframework.guide/

@@ -39,3 +39,24 @@
 
 - 추상클래스는 IS - A "~이다"
 - 인터페이스는 HAS - A "~을 할 수 있는"
+
+---
+
+## DAO class & VO class
+
+1. DAO(Data Access Object) class
+
+- jdbc 에 연결하는 (데이터베이스 접근) class
+- 데이터베이스에 접속해서 데이터의 CRUD 를 수행하는 class
+- 일반적으로 JSP 혹은 Servlet 에서 함께 기술 할 수 있지만, 유지보수 및 코드의 모듈화를 위해 별도의 DAO class 를 만들어서 사용
+- **보통 한 개의 테이블에 한 개의 DAO class 를 작성**
+- DAO class 는 singleton pattern 으로 작성
+
+2. VO(Value Object) class / DTO(Data Transfer Object) class
+
+- DAO 클래스를 이용해 데이터베이스에서 데이터를 관리할 때 데이터를 일반적인 변수에 할당해 작업할 수 있지만, 별도의 VO 클래스를 작성해 데이터베이스와 관련된 변수들의 모음 역할을 함
+- VO 클래스의 변수들은 외부에서 쉽게 접근할 수 없도록 은닉(private) 처리
+
+## project 생성
+
+- ctrl + n -> eGovFrame Web Project
